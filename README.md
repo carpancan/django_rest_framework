@@ -6,7 +6,7 @@ Is an API Rest example with jwt authentication and custom permissions.
 
 ## PREPARE VIRTUALENV
 * virtualenv profilesvenv
-* source profilesenv/bin/activate
+* source profilesvenv/bin/activate
 
 ## CLONE PROJECT
 git clone git@github.com:carpancan/django_rest_framework.git
