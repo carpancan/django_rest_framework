@@ -26,20 +26,20 @@ python manage.py
 
 Available subcommands:
 
-[account]
+### [account]
     * account_unsetmultipleprimaryemails
 
-[auth]
+### [auth]
     * changepassword
     * createsuperuser
 
-[authtoken]
+### [authtoken]
     * drf_create_token
 
-[contenttypes]
+### [contenttypes]
     * remove_stale_contenttypes
 
-[django]
+### [django]
     * check
     * compilemessages
     * createcachetable
@@ -64,13 +64,13 @@ Available subcommands:
     * test
     * testserver
 
-[rest_framework]
+### [rest_framework]
     * generateschema
 
-[sessions]
+### [sessions]
     * clearsessions
 
-[staticfiles]
+### [staticfiles]
     * collectstatic
     * findstatic
     * runserver
