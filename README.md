@@ -2,23 +2,23 @@
 
 Is an API Rest example with jwt authentication and custom permissions.
 
-#INSTALL PROJECT
+# INSTALL PROJECT
 
-##prepare virtualenv
+## PREPARE VIRTUALENV
 virtualenv profilesvenv
 source profilesenv/bin/activate
 
-##clone project
+## CLONE PROJECT
 git clone git@github.com:carpancan/django_rest_framework.git
 
-##install all dependencies
+## INSTALL ALL DEPENDENCIES
 pip install -r django_rest_framework/requirements.txt
 
-#RUN PROJECT
+# RUN PROJECT
 cd django_rest_framework
 python manage.py runserver
 
-#COMMANDS
+# COMMANDS
 Type 'manage.py help <subcommand>' for help on a specific subcommand.
 
 Available subcommands:
