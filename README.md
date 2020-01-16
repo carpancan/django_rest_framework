@@ -14,6 +14,9 @@ git clone git@github.com:carpancan/django_rest_framework.git
 ## INSTALL ALL DEPENDENCIES
 pip install -r django_rest_framework/requirements.txt
 
+## CREATE SUPERUSER TO START USE API
+python manage.py createsuperuser
+
 # RUN PROJECT
 cd django_rest_framework
 python manage.py runserver
@@ -24,52 +27,53 @@ python manage.py
 Available subcommands:
 
 [account]
-    account_unsetmultipleprimaryemails
+    - account_unsetmultipleprimaryemails
 
 [auth]
-    changepassword
-    createsuperuser
+    - changepassword
+    - createsuperuser
 
 [authtoken]
-    drf_create_token
+    - drf_create_token
 
 [contenttypes]
-    remove_stale_contenttypes
+    - remove_stale_contenttypes
 
 [django]
-    check
-    compilemessages
-    createcachetable
-    dbshell
-    diffsettings
-    dumpdata
-    flush
-    inspectdb
-    loaddata
-    makemessages
-    makemigrations
-    migrate
-    sendtestemail
-    shell
-    showmigrations
-    sqlflush
-    sqlmigrate
-    sqlsequencereset
-    squashmigrations
-    startapp
-    startproject
-    test
-    testserver
+    - check
+    - compilemessages
+    - createcachetable
+    - dbshell
+    - diffsettings
+    - dumpdata
+    - flush
+    - inspectdb
+    - loaddata
+    - makemessages
+    - makemigrations
+    - migrate
+    - sendtestemail
+    - shell
+    - showmigrations
+    - sqlflush
+    - sqlmigrate
+    - sqlsequencereset
+    - squashmigrations
+    - startapp
+    - startproject
+    - test
+    - testserver
 
 [rest_framework]
-    generateschema
+    - generateschema
 
 [sessions]
-    clearsessions
+    - clearsessions
 
 [staticfiles]
-    collectstatic
-    findstatic
-    runserver
+    - collectstatic
+    - findstatic
+    - runserver
 
-
+# RUN TESTS
+python manage.py test
