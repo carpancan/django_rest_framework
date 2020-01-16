@@ -19,7 +19,7 @@ cd django_rest_framework
 python manage.py runserver
 
 # COMMANDS
-Type 'manage.py help <subcommand>' for help on a specific subcommand.
+python manage.py 
 
 Available subcommands:
 
