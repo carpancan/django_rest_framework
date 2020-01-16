@@ -16,6 +16,7 @@ pip install -r django_rest_framework/requirements.txt
 
 ## CREATE SUPERUSER TO START USE API
 * cd django_rest_framework
+* python manage.py migrate
 * python manage.py createsuperuser
 
 # RUN PROJECT
