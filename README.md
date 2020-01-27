@@ -1,3 +1,6 @@
+[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-376)
+![PyPI](https://img.shields.io/pypi/v/django?label=django)
+![PyPI](https://img.shields.io/pypi/v/djangorestframework?label=Django%20REST%20framework)
 # Profiles API REST with django_rest_framework
 
 Is an API Rest example with jwt authentication and custom permissions.
