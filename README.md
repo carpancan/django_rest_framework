@@ -5,7 +5,7 @@ Is an API Rest example with jwt authentication and custom permissions.
 # INSTALL PROJECT
 
 ## PREPARE VIRTUALENV
-* virtualenv profilesvenv
+* virtualenv -p python3 profilesvenv
 * source profilesvenv/bin/activate
 
 ## CLONE PROJECT
